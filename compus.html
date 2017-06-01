@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="compus.css" />
+<title>两江职业教育中心</title>
+ <script language =javascript > 
+ 
+ 
+ 
+		var curIndex=0; 
+		//时间间隔 单位毫秒 
+		var timeInterval=5000; 
+		var arr=new Array(); 
+		arr[0]="imagie/1.jpg"; 
+		arr[1]="imagie/2.jpg";
+		arr[2]="imagie/3.jpg";
+		arr[3]="imagie/4.jpg";  
+		arr[4]="imagie/fdgd.png";
+		setInterval(changeImg,timeInterval); 
+		function changeImg() 
+		{ 
+		var obj=document.getElementById("showpic"); 
+		if (curIndex==arr.length-1) 
+		{ 
+		curIndex=0; 
+		} 
+		else 
+		{ 
+		curIndex+=1; 
+		} 
+		obj.src=arr[curIndex]; 
+		} 
+		
+		
+		
+	</script> 
+        
+<script>
+var curIndex2=4;
+function change(){
+			var arr2=new Array(); 
+			arr2[0]="imagie/1.jpg"; 
+			arr2[1]="imagie/2.jpg";
+			arr2[2]="imagie/3.jpg";
+			arr2[3]="imagie/4.jpg";  
+			arr2[4]="imagie/fdgd.png";
+			var obj2=document.getElementById("showpic"); 
+			
+			if (curIndex2==0) 
+				{ 
+				curIndex2=4; 
+					} 
+			else 
+				{ 
+				curIndex2--; 
+				} 
+			obj2.src=arr2[curIndex2];
+			 
+		}
+ 
+</script>
+
+<script>
+var curIndex3=0;
+function change3(){
+			var arr3=new Array(); 
+			arr3[0]="imagie/1.jpg"; 
+			arr3[1]="imagie/2.jpg";
+			arr3[2]="imagie/3.jpg";
+			arr3[3]="imagie/4.jpg";  
+			arr3[4]="imagie/fdgd.png";
+			var obj3=document.getElementById("showpic"); 
+			
+			if (curIndex3==4) 
+				{ 
+				curIndex3=0; 
+					} 
+			else 
+				{ 
+				curIndex3++; 
+				} 
+			obj3.src=arr3[curIndex3];
+			 
+		}
+ 
+</script>
+<script>
+
+function mOut(obj)
+{
+obj.src="imagie/kefu.png";
+
+}
+
+function mOver(obj)
+{
+obj.src="imagie/kefu3.png";
+}
+
+function closeC(){
+	document.getElementsByclassName("kefu2").src="imagie/kefu.png";
+	//mOut(document.getElementsByClassName("kefu2"));
+}
+</script>
+
+</head>
+
+<body>
+	<!-- 设置顶部颜色条-->
+	<div class="topLine">
+    </div>
+   <!-- 设置搜索框及校徽部分-->
+   <div class="text">
+   		<img class="logo" src="imagie/logo.png"/>
+        <input placeholder="搜索" class="text2" type="text"/>
+        <img class="searchPicture" src="imagie/sousuo.png"/>
+   </div>
+   <div id="list">
+   	<ul >
+    	<li><a href="">网站首页</a>
+        		<ul >
+                	 <li><a href="#">学校简介</a></li>
+        			 <li><a href="#">现任领导</a></li>
+          		     <li><a href="#">机构设置</a></li>
+          		     <li><a href="#">校园荣誉</a></li>
+                     <li><a href="#">教学设施</a></li>
+                </ul>
+            </li>
+            <li><a href="#">学校概况</a>
+          		 <ul >
+                	 <li><a href="#">学校简介</a></li>
+        			 <li><a href="#">现任领导</a></li>
+          		     <li><a href="#">机构设置</a></li>
+          		     <li><a href="#">校园荣誉</a></li>
+                     <li><a href="#">教学设施</a></li>
+               	 </ul>
+            </li>
+            <li><a href="#">校务公开</a>
+            	<ul >
+                	 <li><a href="#">学校简介</a></li>
+        			 <li><a href="#">现任领导</a></li>
+          		     <li><a href="#">机构设置</a></li>
+          		     <li><a href="#">校园荣誉</a></li>
+                     <li><a href="#">教学设施</a></li>
+                </ul>
+            </li>
+            <li><a href="#">专业建设</a>
+           		 <ul >
+                	 <li><a href="#">学校简介</a></li>
+        			 <li><a href="#">现任领导</a></li>
+          		     <li><a href="#">机构设置</a></li>
+          		     <li><a href="#">校园荣誉</a></li>
+                     <li><a href="#">教学设施</a></li>
+                </ul>
+            </li>
+        	<li><a href="#">教学科研</a>
+           		 <ul >
+                	 <li><a href="#">学校简介</a></li>
+        			 <li><a href="#">现任领导</a></li>
+          		     <li><a href="#">机构设置</a></li>
+          		     <li><a href="#">校园荣誉</a></li>
+                     <li><a href="#">教学设施</a></li>
+                </ul>
+            </li>
+            <li><a href="#">学生工作</a>
+            	<ul >
+                	 <li><a href="#">学校简介</a></li>
+        			 <li><a href="#">现任领导</a></li>
+          		     <li><a href="#">机构设置</a></li>
+          		     <li><a href="#">校园荣誉</a></li>
+                     <li><a href="#">教学设施</a></li>
+                </ul>
+            </li>
+            <li><a href="#">招生就业</a>
+          		  <ul >
+                	 <li><a href="#">学校简介</a></li>
+        			 <li><a href="#">现任领导</a></li>
+          		     <li><a href="#">机构设置</a></li>
+          		     <li><a href="#">校园荣誉</a></li>
+                     <li><a href="#">教学设施</a></li>
+                </ul>
+            </li>
+            <li><a href="#">培训工作</a>
+           		 <ul >
+                	 <li><a href="#">学校简介</a></li>
+        			 <li><a href="#">现任领导</a></li>
+          		     <li><a href="#">机构设置</a></li>
+          		     <li><a href="#">校园荣誉</a></li>
+                     <li><a href="#">教学设施</a></li>
+                </ul>
+            </li>
+            <li><a href="#">教育资源</a>
+           		 <ul >
+                	 <li><a href="#">学校简介</a></li>
+        			 <li><a href="#">现任领导</a></li>
+          		     <li><a href="#">机构设置</a></li>
+          		     <li><a href="#">校园荣誉</a></li>
+                     <li><a href="#">教学设施</a></li>
+                </ul>
+            </li>
+            <li><a href="#">党团建设</a>
+            	<ul >
+                	 <li><a href="#">学校简介</a></li>
+        			 <li><a href="#">现任领导</a></li>
+          		     <li><a href="#">机构设置</a></li>
+          		     <li><a href="#">校园荣誉</a></li>
+                     <li><a href="#">教学设施</a></li>
+                </ul>
+           </li>
+    </ul>
+   </div>
+   
+   <div class="bigPicture">
+     	<img id="leftswitch" onclick="change()" class="leftSwitch" src="imagie/gfhr.png"/>
+        
+        
+        
+     
+        
+        
+   		<img id="showpic"   class="picture" src="imagie/fdgd.png" />
+        
+        <img id="rightswitch" onclick="change3()" class="rightSwitch" src="imagie/6.png"/>
+      
+   </div>
+   <div class="transbox">
+   		<p class="bigText1">青春飞扬，放飞梦想</p>
+        <p class="bigText2">于2015年5月20日晚在操场举办了“魔幻之夜，放飞梦想”为主题的魔术专场表演晚会。本次晚会由我校2014年广告专业毕业生黄锦及其组织的魔术队表演的......</p>
+   </div>
+  
+   
+<div class="container">
+        <img class="newsPicture" src="imagie/tyut.png"/>
+        <p class="newWord">最新动态</p>
+        <p class="more">更多>></p>
+    </div>
+   		
+        
+<div class="container2">
+        		 <img class="containerPicture" src="imagie/fd.png"/>
+                 <div class="wordDiv">
+                 		<pre class="word1">青春飞扬，放飞梦想                  2015-6-7</pre>
+                                              </pre>
+          			  <pre class="local">为认真贯彻落实教育部、重庆市教委《关于做好首</pre>
+          
+           			 <pre class="word">届职业教育活动周组织工作的通知》精神及江北区</pre>
+         			   <pre class="word">教委要求</pre>
+            </div>
+            <img class="containerPicture2" src="imagie/fd.png"/>
+            <div class="wordDiv">
+                 		<pre class="word1">青春飞扬，放飞梦想                  2015-6-7</pre>
+                                              </pre>
+            <pre class="local">为认真贯彻落实教育部、重庆市教委《关于做好首</pre>
+          
+            <pre class="word">届职业教育活动周组织工作的通知》精神及江北区</pre>
+            <pre class="word">教委要求</pre>
+                 </div>
+</div>
+        </div>
+       
+        <div class="container2">
+        		 <img class="containerPicture" src="imagie/fd.png"/>
+                 <div class="wordDiv">
+                 		<pre class="word1">青春飞扬，放飞梦想                  2015-6-7</pre>
+                                              </pre>
+          			  <pre class="local">为认真贯彻落实教育部、重庆市教委《关于做好首</pre>
+          
+           			 <pre class="word">届职业教育活动周组织工作的通知》精神及江北区</pre>
+         			   <pre class="word">教委要求</pre>
+            </div>
+            <img class="containerPicture2" src="imagie/fd.png"/>
+            <div class="wordDiv">
+                 		<pre class="word1">青春飞扬，放飞梦想                  2015-6-7</pre>
+                                              </pre>
+            <pre class="local">为认真贯彻落实教育部、重庆市教委《关于做好首</pre>
+          
+            <pre class="word">届职业教育活动周组织工作的通知》精神及江北区</pre>
+            <pre class="word">教委要求</pre>
+          </div>
+       </div>
+        
+<div class="container3">
+  <img class="newsPicture" src="imagie/rtyurt.png"/>
+  <p class="jobwork">就业明星</p>
+  <p class="more1">更多>></p>
+  <img class="picture5" src="imagie/rye.png"/>
+        </div>
+        
+        <div class="jobstar"> 
+        	<img class="picture8" src="imagie/fd2.png"/>
+        	  <img class="picture6" src="imagie/ds.png"/>
+        	  <img class="picture6" src="imagie/fer.png"/>
+        	  <img class="picture6" src="imagie/de.png"/>
+              <img class="picture7" src="imagie/4.png"/>
+        	
+        </div>
+        
+      	
+       <img  class="kefu2" onmouseover="mOver(this)" onmouseout="mOut(this)"  src="imagie/kefu.png"/>
+       
+       <img class="closePicture" src="imagie/close.png" onclik="closeC()"/>
+        
+        
+       
+        <div class="wordwork">
+        	<div class="wordwork3">
+     			<pre class="wordwork2">  世联科技有限公司            保险公司负责人         康华会计师事务所综           训练师罗茂</pre>
+            	<pre class="wordwork2">    副总经理李昕                任林                  合管理部经理王春</pre>
+            </div>
+            <img class="picture9" src="imagie/rtytr.png"/>
+        </div>
+        
+        <div class="kefu">
+          <img class="kefu2" src="imagie/kefu.png" />
+        </div>
+       
+       <div class="container3">
+  <img class="newsPicture" src="imagie/uipoi.png"/>
+  <p class="jobwork3">校园风采</p>
+  <p class="more3">更多>></p>
+        </div>
+        
+        <div class="schoolPicture">
+        		<img class="picture11" src="imagie/weq.png"/>
+                <img class="picture10" src="imagie/we.png"/>
+                <img class="picture10" src="imagie/dfds.png"/>
+                <img class="picture10" src="imagie/fd.png"/>
+                <img class="picture10" src="imagie/wrt.png"/>
+                <img class="picture10" src="imagie/uio.png"/>
+        </div>
+        
+        <div class="wordwork">
+        	
+     			<pre class="wordwork2">京东方科技集团股份有   把握行业需求，给学生      康华会计师事务所 综     青春飞扬，放飞梦想         学生手工作品展示        篮球比赛</pre>
+            	<pre class="wordwork2">限公司专场招聘会...      一个双选机会             合管理部经理王春 </pre>
+          
+            
+        </div>
+      
+        <div class="bottom">
+        	<p class="bottomWord">友情链接</p>
+            <div class="bottomPicture">
+            	<img class="picture12" src="imagie/uiy.png"/>
+                <img class="picture13" src="imagie/iuoi.png"/>
+                <img class="picture13" src="imagie/uiyt.png"/>
+                <img class="picture13" src="imagie/jiang.png"/>
+            </div>
+            
+           <!-- <div class="bottomLine1">
+            </div>
+            <div class="bottomLine2">
+            </div>-->
+            
+            <div class="bottomWord">
+            	<pre class="bottomWord2">All Rights Reserved Copyight &copy 2012 重庆市两江职教中心 制作 渝ICP备06004125号-1</pre>
+                <pre class="bottomWord3">联系我们 wzz67866299@163.com go1@263.net QQ 475007895 页面执行时间：46.875毫秒</pre>
+                <img class="weixin" src="imagie/ertw.png"/>
+               
+            </div>
+             
+        </div>
+       
+        
+  
+</body>
+</html>

@@ -1,0 +1,488 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+}
+
+/*设置顶部颜色条*/
+div.topLine{
+	height:11px;
+	width:1366px;
+	background-color:#0066cc;
+}
+/*设置搜索框及校徽部分*/
+div.text{
+	margin-left:183px;
+	height:105px;
+	width:1000px;
+}
+
+img.logo{
+	padding-top:22px;
+	float:left;
+}
+/*设置文本框*/
+.text2{
+	width:263px;
+	height:36px;
+	float:left;
+	margin-left:194px;
+	margin-top:48px;
+	border-radius:5px;
+	font-size:15px;
+	font-family:"微软雅黑";
+	color:#cccccc;
+}
+
+.searchPicture{
+	height:38px;
+	float:right;
+	position:absolute;
+	top:59px;
+	z-index:1px;
+	right:180px;
+}
+
+#list{
+	height:46px;
+	width:1000px;
+	margin-left:183px;
+}
+
+#list ul{
+	font-family:"微软雅黑"；
+	font-size:16px;
+	color:#333333
+	margin-top:12px;
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	width:1000px;
+}
+
+#list ul li{
+	
+	height:46px;
+	line-height:37px;
+	text-align:center;
+	float:left;
+	width:100px;
+	
+}
+
+#list ul li a{
+	
+	color:#000;
+	text-decoration:none;
+	display:block;
+	width:100px;
+	height:46px;
+}
+
+#list ul li ul{
+	background-color:#00F;
+	display:none;
+	z-index:10px;
+	position:absolute;
+	
+}
+#list ul li a:hover  {
+	
+	/*background-color:#F00;*/
+	background-color:#0066cc;
+}
+
+#list li 
+.clear{
+	clear:both;
+}
+
+#list ul li ul li {
+	width:100px;
+	margin:0;
+}
+
+#list ul li:hover ul {/*这里就是弹出的下拉菜单了*/ 
+	display:block;
+	width:100px;
+}
+
+#list ul li ul li a{
+	
+	background:none;
+	
+}
+#list ul li ul li a:hover{
+	
+	background:#03F;
+	color:#FFFFFF;
+}
+
+#kefu2 :hover{
+	display:block;
+}
+
+div.bigPicture{
+	width:auto;
+	height:443px;
+	background-color:#333333;
+}
+
+#bigText{
+	width:1000px;
+	margin-left:183px;
+	position:absolute;
+	height:72px;
+	top:532px;
+	 border:none;
+  filter:alpha(opacity=60);
+  opacity:0.6;
+}
+div.transbox
+{
+ width:1000px;
+	margin-left:183px;
+	position:absolute;
+	height:72px;
+	top:532px;
+ background-color:#484a47;
+ 	/*border:none;*/
+  filter:alpha(opacity=60);
+  opacity:0.6;
+}
+
+p.bigText1{
+	font-family:"微软雅黑";
+	font-size:20px;
+	color:#ffffff;
+	margin-top:11px;
+	margin-left:11px;
+}
+
+p.bigText2{
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#cdcccc;
+	margin-top:11px;
+	margin-left:11px;
+}
+
+img.picture{
+	margin-left:135px;
+	width:1000px;
+	height:443px;
+
+}
+
+img.leftSwitch{
+	margin-top:170px;
+	float:left;
+	width:50px;
+	left:443px;
+}
+img.rightSwitch{
+	margin-top:170px;
+	float:right;
+}
+
+div.container{
+	height:58px;
+	width:1000px;
+	margin-left:183px;
+}
+
+img.newsPicture{
+	float:left;
+	padding-top:24px;
+}
+p.more{
+	padding-top:24px;
+	float:right;
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#0066cc;
+}
+p.newWord{
+	float:left;
+	font-family:"宋体";
+	font-size:24px;
+	color:#0066cc;
+	padding-top:30px;
+	padding-left:10px;
+}
+
+div.container2{
+	width:1200px;
+	height:117px;
+	margin-left:183px;
+	float:left;
+}
+img.containerPicture{
+	float:left;
+	position:relative;
+	margin-top:10px;
+}
+img.picturesing{
+	float:left;
+	left:343px;
+}
+pre.word{
+	float:left;
+	font-family:"宋体黑";
+	font-size:14px;
+	color:#333333;
+	padding-left:10px;
+	
+}
+pre.local{
+	padding-left:10px;
+	padding-top:15px;
+	float:left;
+	font-family:"宋体黑";
+	font-size:14px;
+	color:#333333;;
+}
+pre.word1{
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#333333;
+	float:left;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+div.wordDiv{
+	height:117px;
+	width:322px;
+	float:left;
+}
+
+img.containerPicture2{
+	margin-left:37px;
+	float:left;
+	margin-top:10px;
+}
+div.wordDiv2{
+	margin-left:198px;height:117px;
+	width:322px;
+	background-color:#9CC;
+	float:left;
+	
+}
+
+div.container3{
+	margin-left:183px;
+	height:67px;
+	width:1200px;
+	float:left;
+	
+}
+
+img.picture4{
+	float:left;
+}
+p.newWord{
+	float:left;
+	font-family:"宋体";
+	font-size:24px;
+	color:#0066cc;
+	padding-top:30px;
+	padding-left:10px;
+}
+
+p.jobwork{
+	font-family:"宋体";
+	font-size:24px;
+	color:#cc6600;
+	float:left;
+	padding-top:30px;
+	padding-left:10px;
+}
+p.more1{
+	padding-top:20px;
+	float:left;
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#cc6600;
+	margin-left:492px;
+}
+img.picture5{
+	padding-top:20px;
+	margin-right:335px;
+	float:right;
+}
+
+div.jobstar{
+	width:1000px;
+	height:107px;
+	margin-left:183px;
+	float:left;
+}
+
+img.picture6{
+	float:left;
+	margin-left:41px;
+}
+
+img.picture7{
+	float:left;
+	margin-left:41px;
+}
+img.picture8{
+	float:left;
+}
+
+div.wordwork{
+	margin-left:183px;
+	width:1000px;
+	height:51px;
+	float:left;
+	
+}
+
+pre.wordwork2{
+	font-family:"宋体";
+	font-size:14px;
+	color:#333333;
+	float:left;
+}
+
+div.wordwork3{
+	height:51px;
+	width:725px;
+	float:left;
+}
+img.picture9{
+	padding-top:5px;
+	float:left;
+}
+
+p.jobwork3{
+	font-family:"宋体";
+	font-size:24px;
+	color:#0066cc;
+	float:left;
+	padding-top:30px;
+	padding-left:10px;
+}
+p.more3{
+	padding-top:24px;
+	float:left;
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#cc6600;
+	margin-left:811px;
+}
+
+div.schoolPicture{
+	height:108px;
+	width:1000px;
+	margin-left:183px;
+	
+}
+
+img.picture10{
+	float:left;
+	margin-left:27px;
+}
+img.picture11{
+	float:left;
+}
+
+div.bottom{
+	width:1388px;
+	height:214px;
+	background-color:#333333;
+	float:left;
+}
+
+p.bottomWord{
+	font-family:"宋体";
+	font-size:16px;
+	color:#ffffff;
+	margin-left:183px;
+	margin-top:15px;
+	float:left;
+}
+
+div.bottomPicture{
+	height:60px;
+	width:1000px;
+	margin-left:183px;
+	margin-top:12px;
+	float:left;
+}
+img.picture12{
+	float:left;
+}
+img.picture13{
+	float:left;
+	margin-left:26px;
+	
+}
+
+div.bottomLine1{
+	height:2px;
+	background-color:#444444;
+	margin-top:120px;
+}
+
+div.bottomLine2{
+	height:2px;
+	background-color:#030202;
+	
+}
+
+div.bottomWord{
+	height:113px;
+	width:1000px;
+	margin-left:183px;
+
+
+}
+div.wordtext{
+	width:570px;
+	background-color:#30F;
+	padding-top:37px;
+}
+pre.bottomWord2{
+	margin-top:34px;
+	float:left;
+}
+pre.bottomWord3{
+	
+	float:left;
+}
+
+img.weixin{
+	float:left;
+	margin-left:71px;
+	position:relative;
+	bottom:30px;
+}
+
+div.kefu{
+	display:none;
+	position:fixed;
+	top:30%;
+	right:0%;
+	height:300px;
+	width:100px;
+	background-color:#00F;
+}
+
+img.kefu2{
+	display:block;
+	position:fixed;
+	top:20%;
+	right:0%;
+	z-index:10px;
+}
+
+img.closePicture{
+	position:fixed;
+	top:20%;
+	right:0%;
+	z-index:11px;
+}
